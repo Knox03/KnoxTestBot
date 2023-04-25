@@ -1,0 +1,5 @@
+.env
+beleidigungen.xlsx
+__pycache__/*
+responses.py
+time_test.py
