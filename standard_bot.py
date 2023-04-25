@@ -109,15 +109,15 @@ def run_discord_bot():
     @bot.command()
     async def mare(ctx):
         embed = discord.Embed(
-            title='Mares Leben', 
+            title='Knox Leben', 
             url = 'https://www.youtube.com/watch?v=61u15V02Xwo', 
             color = 0xFF5733, 
-            description = 'Mares Leben da er no bitches hat',
+            description = 'Mares Leben da er übel viele bitches hat',
             type = 'image'
             )
         
-        embed.add_field(name = 'kek', value = '```hurensohn```', inline = True)
-        embed.add_field(name = 'kek2', value = '`hurensohn2`', inline = False)
+        embed.add_field(name = 'Kleiner Test', value = '```Jo bin dumm```', inline = True)
+        embed.add_field(name = 'Und wie sieht das aus :)', value = '`Supa`', inline = False)
         embed.set_image(url = 'http://imgur.com/VH8U8wOb.jpg')
         await ctx.send(embed = embed)
 
